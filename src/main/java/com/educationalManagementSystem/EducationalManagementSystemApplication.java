@@ -11,11 +11,3 @@ public class EducationalManagementSystemApplication {
         SpringApplication.run(EducationalManagementSystemApplication.class, args);
     }
 }
-
-@RestController
-class HelloController {
-    @GetMapping("/")
-    public String hello() {
-        return "Hello, World!";
-    }
-}
