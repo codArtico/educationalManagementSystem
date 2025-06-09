@@ -49,6 +49,7 @@ public class AlunoController {
         }
     }
 
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {
         if (service.buscarPorId(id).isPresent()) {
